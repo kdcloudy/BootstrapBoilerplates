@@ -8,7 +8,7 @@ link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bo
 ### A Login Jumbotron card
 
 CSS Class:
-`.basic-card{
+```.basic-card{
     height: 90%;
     width: 60%;
     position: absolute;
@@ -20,7 +20,7 @@ CSS Class:
     background: #e0e5ec;
     display: flex;
     justify-content: center; 
-}`
+}```
 
 HTML:
  `<div class="basic-card>
