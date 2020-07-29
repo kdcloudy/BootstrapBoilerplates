@@ -6,8 +6,7 @@ Quick and basic starters code for basic static layouts in HTML/CSS such as signu
 link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"`
 
 ### A Login Jumbotron card
-
-CSS Class:
+CSS:
 ```
 .basic-card{
     height: 90%;
@@ -24,22 +23,28 @@ CSS Class:
 }
 ```
 
-HTML:
- `<div class="basic-card>
- <!--INSERT COMPONENTS HERE--->
- </div>'
- 
- ### Gradients
- 
- CSS:
- (Add this to any class or body for full gradient background)
+### Gradients
+CSS:
+(Add this to any class or body for full gradient background)
  
  `background-image: linear-gradient(to bottom right, #2EC866, #0E141E);`
+ 
+### Gradient Text
+CSS:
+
+`
+#gradtext{
+    background: linear-gradient(to bottom right, #E73C7E, #EE7752);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+`
 
 
-### Navbar:
-
-` <!-- Navbar -->
+### Basic Dark Navbar:
+HTML:
+``` <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark scrolling-navbar">
           <div class="container">
     
@@ -47,12 +52,6 @@ HTML:
             <a class="navbar-brand" href="/">
               <img src="#" height="60" width="200" alt="">
             </a>
-    
-            <!-- Collapse -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
     
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -86,4 +85,46 @@ HTML:
             </div>
           </div>
         </nav>
-    `
+```
+     
+### Neumorphic UI:
+
+```
+body{
+    background: #e0e5ec;
+}
+
+
+.neu-components{
+    box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+    border: 0;
+    background: #e0e5ec;
+    border-radius: 10px;
+    padding: 10px;
+}
+```
+
+
+Bootstrap Grid Sample:
+Two columns taking 6 units, one row.
+```
+<div class="row">
+  <div class="col-6">
+    <div class="grid">
+       <div class="content">
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p> -->
+    </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="content">
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p> -->
+    </div>
+   </div>
+ </div>
+ ```
