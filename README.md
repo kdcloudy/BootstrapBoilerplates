@@ -44,8 +44,9 @@ CSS:
 
 ### Basic Dark Navbar:
 HTML:
-``` <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark scrolling-navbar">
+``` 
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark scrolling-navbar">
           <div class="container">
     
             <!-- Brand -->
@@ -106,7 +107,7 @@ body{
 ```
 
 
-Bootstrap Grid Sample:
+### Bootstrap Grid Sample:
 Two columns taking 6 units, one row.
 ```
 <div class="row">
