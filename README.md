@@ -1,5 +1,5 @@
 # BootstrapBoilerplates
-Quick and basic starters code for basic static layouts in HTML/CSS such as signup forms, grids, gradients using Bootstrap.
+Quick and basic starters code for basic static layouts in HTML/CSS such as signup forms, grids, gradients using Bootstrap. This is for delivering a quick testable, clean UI while you can still focus on your backend and before you jump to React or Vue.
 
 ## Dependencies:
 `link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
