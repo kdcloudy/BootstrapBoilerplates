@@ -32,14 +32,14 @@ CSS:
 ### Gradient Text
 CSS:
 
-`
+```
 #gradtext{
     background: linear-gradient(to bottom right, #E73C7E, #EE7752);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
-`
+```
 
 
 ### Basic Dark Navbar:
