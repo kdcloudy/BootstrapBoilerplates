@@ -2,7 +2,7 @@
 Quick and basic starters code for basic static layouts in HTML/CSS such as signup forms, grids, gradients using Bootstrap.
 
 ## Dependencies:
-Add these before </head>
+Add these before "</head>"
 `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">`
 
@@ -22,12 +22,12 @@ CSS Class:
     display: flex;
     justify-content: center;
     
-}' 
+}  `
 
 HTML:
  `<div class="basic-card>
  <!--INSERT COMPONENTS HERE--->
- </div>`
+ </div>'
  
  ### Gradients
  
