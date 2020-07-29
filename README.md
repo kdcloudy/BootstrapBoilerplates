@@ -19,9 +19,8 @@ CSS Class:
     border-radius: 10px 10px;
     background: #e0e5ec;
     display: flex;
-    justify-content: center;
-    
-}  `
+    justify-content: center; 
+}`
 
 HTML:
  `<div class="basic-card>
