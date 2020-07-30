@@ -106,6 +106,58 @@ body{
 }
 ```
 
+### Basic Sign up Form
+
+```
+ <form class="form-container" action="#">
+                            <p class="h4 mb-4 text-center">Sign Up</p>
+                            
+                            <input type="text" name="name" id="defaultLoginFormtext" class="form-control mb-4" placeholder="Your name" required>
+                            <input type="text" name="username" id="defaultLoginFormtext" class="form-control mb-4" placeholder="E-Mail" required>
+                            <input type="password" name="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password" required>
+                            <label for="sel1">Gender:</label>
+                            <div class="radio">
+                              <label><input type="radio" name="optradio" checked>Male</label>
+                            </div>
+                            <div class="radio">
+                              <label><input type="radio" name="optradio">Female</label>
+                            </div>
+                            <div class="radio disabled">
+                              <label><input type="radio" name="optradio" disabled>Prefer not to say</label>
+                          
+                            </div>
+                            <div class="form-group">
+                                <label for="sel1">Select Difficulty Level</label>
+                                <select class="form-control" id="sel1">
+                                  <option>Beginner</option>
+                                  <option>Intermediate</option>
+                                  <option>Pro</option>
+                                </select>
+                              </div>
+
+                             
+                              <label for="birthday">Birthday:</label>
+                              <input type="date" id="birthday" name="birthday" class="form-control mb-4">
+                            
+
+                              <div class="checkbox">
+                                <label><input type="checkbox" value="">Enroll me part of the newsletter</label>
+                              </div>
+                              <div class="checkbox">
+                                <label><input type="checkbox" value="">I accept to the terms of the end user license agreement.</label>
+                              </div>
+                              
+                            <button class="btn btn-info btn-black btn-block my-4" type="submit">Create Account</button>
+                            <button class="btn btn-info btn-red btn-block my-4" type="reset">Reset</button>
+                        
+                            <div class="text-center">
+                                <p>Already a member?
+                                    <a href="/login">Login now</a>
+                                </p>
+                        </form>
+```
+
+
 
 ### Bootstrap Grid Sample:
 Two columns taking 6 units, one row.
